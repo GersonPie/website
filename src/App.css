@@ -1,0 +1,144 @@
+*{
+  text-decoration: none;
+  margin: 0;
+  padding: 0;
+  font-family: poppins;
+  --main-bg-color: #363333;
+  --nav-bg: rgba(0, 0, 0, 0.534);
+  --logo-color: #7777FA;
+  --left-container-bg-color: #4b4b4bb7
+
+}
+body{
+  background-color: var(--main-bg-color);
+  color: white;
+  
+}
+a{
+  color: white;
+}
+.dimed{
+  opacity: 0.6;
+}
+h1{
+ color: #7777FA; 
+}
+#header{
+  display: flex;
+  justify-content: space-between;
+  justify-items: center;
+  padding: 0 20px;
+  
+}
+.nav-link{
+  padding: 5px;
+  margin: 5px;
+}
+#nav{
+  background-color: var(--nav-bg);
+  padding: 20px;
+  border-radius: 0px 0px 20px 20px;
+
+}
+
+#logo{
+  padding: 20px;
+  position: relative;
+  
+}
+
+.logo{
+  padding: 0 0 20px 0;
+}
+#left-container{
+  position: absolute;
+  background-color: var(--left-container-bg-color);
+  display: flex;
+  flex-direction: column;
+  width: 220px;
+  padding: 30px 30px 30px 10px;
+  height: 100vh;
+  top: 0px;
+
+}
+#left-container #projects-header{
+  background-color: rgba(255, 255, 255, 0.3);
+  padding: 5px;
+  margin-bottom: 15px;
+
+}
+#side-container-projects{
+  margin: 10px;
+}
+
+#main-container{
+  position: absolute;
+  top: 20vh;
+  left: 30vw;
+  max-width: 600px;
+  
+}
+
+#main-container-content .contact-text{
+  padding: 5px;
+  margin: 5px;
+}
+.contact-container{
+  display: flex;
+  flex-direction: column;
+  max-width: 360px;
+  
+  
+  
+  justify-content: space-between;
+  height: 300px;
+  
+}
+.textarea{
+  height: 200px;
+  
+}
+.input{
+  background-color: var(--main-bg-color);
+  color: white;
+  border-radius: 10px;
+  border: 1px solid var(--logo-color);
+  padding: 5px;
+  resize: none;
+  outline: none;
+}
+.button{
+  position: relative;
+  top: 20px;
+  padding: 10px;
+  border-radius: 8px;
+  border: 0px;
+  color: white;
+  background-color: var(--logo-color);
+  animation: ease-in-out 1.5s floating infinite ;
+}
+
+.fade-animation{
+  animation: floating-content ease-out 1s;
+  
+}
+
+@keyframes floating {
+  0%{top: 20px}
+  50%{top: 30px}
+  
+}
+
+@keyframes floating-content {
+ 
+  0%{top: calc(20vh + 100px); opacity: 0;}
+  50%{opacity: 1; top: 20vh }
+  
+}
+
+
+
+
+@media (max-width: 500px) {
+  
+}
