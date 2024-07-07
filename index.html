@@ -1,74 +1,152 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Gerson Tamele - Portfolio</title>
-    <link rel="stylesheet" href="style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style2.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
 </head>
+
 <body>
-    <header>
+    <!-- Navigation -->
+    <button id="navbutton" class="nav-button" onclick="showNav()">
+        <span class="material-symbols-outlined" >
+            menu
+            </span>
+        </button>
+    <nav id="navigation" class="shy">
+        <p id="x" onclick="hideNav()">x</p>
         <div class="container">
-            <h1>Gerson Tamele</h1>
-            <p>Frontend Developer & Designer</p>
+            <h1>CapitalG</h1>
+            <ul>
+                <li><a href="#hero">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
         </div>
-    </header>
-    
-    <nav>
-        <ul>
-            <li><a href="#about">About</a></li>
-            <li><a href="#projects">Projects</a></li>
-            <li><a href="#skills">Skills</a></li>
-            <li><a href="#contact">Contact</a></li>
-        </ul>
     </nav>
-    
-    <section id="about" class="container">
-        <h2>About Me</h2>
-        <div class="about-content">
-            <img src="./assets/profile.jpg" alt="Gerson Tamele" class="profile-pic">
-            <p>Hi, I'm Gerson Tamele. I have been a passionate programmer for the last 2 years and a creative designer for 3 years. My journey in web development began with a curiosity for how websites work, which soon turned into a deep passion for creating beautiful and functional web applications.</p>
-            <p>With a strong foundation in both frontend and backend development, I thrive on transforming complex problems into elegant, user-friendly solutions. My design skills allow me to create visually appealing interfaces that enhance user experience.</p>
-            <p>I am constantly learning and keeping up with the latest industry trends to ensure my work remains at the cutting edge. When I'm not coding or designing, you can find me exploring new technologies, cycling, or enjoying the outdoors.</p>
+
+    <!-- Hero Section -->
+    <section id="hero-wrapper">
+
+        <section id="hero">
+            <div class="container">
+                <h1>Gerson Tamele</h1>
+                <h2>Desenvolvedor frontend & Designer</h2>
+                <p>Criando experiencias web funcionais e atractivas à 2 anos.</p>
+                <a href="#projects" class="btn-primary">Projectos</a>
+            </div>
+        </section>
+    </section>
+
+    <!-- About Section -->
+    <section id="about">
+        <div class="container">
+            <h2>Quem sou?</h2>
+            <p>Olá! Sou Gerson Tamele, um desenvolvedor e designer frontend com mais de dois anos de experiência
+                na criação de interfaces web impressionantes. Com um olhar apurado para o detalhe e um forte sentido estético,
+                esforce-se para construir sites que não sejam apenas visualmente atraentes, mas também fáceis de usar e eficientes. Meu
+                A jornada começou há três anos em design e há dois anos fiz a transição para programação. Este único
+                combinação de habilidades me permite abordar projetos de perspectivas criativas e técnicas,
+                entregando resultados de alta qualidade que superam as expectativas do cliente.</p>
         </div>
     </section>
-    
-    <section id="projects" class="container">
-        <h2>Projects</h2>
-        <div class="project">
-            <img src="./assets/project1.jpg" alt="Project 1" class="project-img">
-            <h3>Project Title</h3>
-            <p>Description of the project, technologies used, and challenges faced.</p>
-            <a href="project-link" target="_blank" class="button-link">Live Demo</a>
-            <a href="repo-link" target="_blank" class="button-link">Source Code</a>
+
+
+<!-- Skills Section -->
+<section id="skills">
+    <div class="container">
+        <h2>habilidades</h2>
+        <div class="skills-container">
+            <div class="skill">
+                <h3>HTML5</h3>
+                <div class="skill-bar">
+                    <div class="skill-level html">90%</div>
+                </div>
+            </div>
+            <div class="skill">
+                <h3>CSS3</h3>
+                <div class="skill-bar">
+                    <div class="skill-level css">85%</div>
+                </div>
+            </div>
+            <div class="skill">
+                <h3>JavaScript</h3>
+                <div class="skill-bar">
+                    <div class="skill-level js">80%</div>
+                </div>
+            </div>
+            <div class="skill">
+                <h3>React</h3>
+                <div class="skill-bar">
+                    <div class="skill-level react">75%</div>
+                </div>
+            </div>
+            <!-- Add more skills as needed -->
         </div>
-        <!-- Repeat for other projects -->
+    </div>
+</section>
+
+
+    <!-- Projects Section -->
+    <section id="projects">
+        <div class="container">
+            <h2>Projectos</h2>
+            <div class="projects-container">
+                <div class="project-item">
+                    <img src="./assets/project1.jpg" alt="Project 1">
+                    <h3>App de conversa Open Sourse</h3>
+                    <p>Este projecto fez parte de um desafio de desenvolvimento chamado <b>Um App em 24h</b>, 
+                        desenvolvido em 8h de tempo usando reactjs para o frontend e nodejs + express no backend, com um salvamento de 
+                    mensagens temporario carregadas directamente do servidor ...</p>
+                </div>
+                <div class="project-item">
+                    <img src="./assets/background.jpg" alt="Project 2">
+                    <h3>Portifólio CXINTER</h3>
+                    <p>Com a participação dos outros 3 membros da CXINTER, foi possivel desenvolver este website simples e dinamico para exposição 
+                        do trabalho feito por este grupo de desenvolvedores...
+                    </p>
+                </div>
+                <div class="project-item">
+                    <img src="./assets/project1.jpg" alt="Project 3">
+                    <h3>Project Title 3</h3>
+                    <p>Description of Project 3</p>
+                </div>
+                <!-- Add more project items as needed -->
+            </div>
+        </div>
     </section>
+
     
-    <section id="skills" class="container">
-        <h2>Skills</h2>
-        <ul>
-            <li>HTML</li>
-            <li>CSS</li>
-            <li>JavaScript</li>
-            <li>React</li>
-            <li>Node.js</li>
-            <!-- Add more as needed -->
-        </ul>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <div class="container">
+            
+            <h2>Vamos Trabalhar em seu projecto?</h2>
+            <div class="contact-form">
+                <form action="submit.php" method="POST">
+                    <input type="text" name="name" placeholder="Your Name" required>
+                    <input type="email" name="email" placeholder="Your Email" required>
+                    <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+                    <button type="submit">Send Message</button>
+                </form>
+            </div>
+        </div>
     </section>
-    
-    <section id="contact" class="container">
-        <h2>Contact</h2>
-        <p>Email: <a href="mailto:gerson.tamele@example.com">gerson.tamele@example.com</a></p>
-        <p>LinkedIn: <a href="your-linkedin" target="_blank">your-linkedin</a></p>
-        <p>GitHub: <a href="your-github" target="_blank">your-github</a></p>
-    </section>
-    
+
+    <!-- Footer Section -->
     <footer>
-        <p>&copy; 2024 Gerson Tamele</p>
+        <div class="container">
+            <p>&copy; 2024 Gerson Tamele. All rights reserved.</p>
+        </div>
     </footer>
-    
     <script src="script.js"></script>
 </body>
+
 </html>
