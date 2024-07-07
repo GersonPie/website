@@ -31,7 +31,7 @@ nav {
 }
 .shy{
     animation: slide-out .2s ease;
-    display: none;
+    
 }
 nav p{
     display: none;
@@ -294,7 +294,7 @@ nav ul li a:hover {
 .contact-form button {
     width: 100%;
     padding: 10px;
-    background-color: #2575fc;
+    background-color: rgb(17, 72, 190);
     color: white;
     border: none;
     border-radius: 5px;
@@ -309,7 +309,7 @@ nav ul li a:hover {
 
 /* Footer Section */
 footer {
-    background-color: #2575fc;
+    background-color: #1151be;
     color: white;
     text-align: center;
     padding: 20px 0;
@@ -356,7 +356,10 @@ footer p {
     'GRAD' 0,
     'opsz' 128
     }
-
+    .shy{
+        animation: slide-out .2s ease;
+        display: none;
+    }
     nav p{
         display: block;
         background-color: rebeccapurple;
