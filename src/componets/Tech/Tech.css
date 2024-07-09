@@ -1,0 +1,30 @@
+.tech{
+    
+    text-align: center;
+
+}
+
+
+
+
+.tech-groups
+{
+    display: flex;
+    justify-content: center;
+    text-align: left;
+}
+.tech-groups .tech-groups-child
+{
+    margin: 10px;
+    border: 1px solid lightgray;
+    list-style: none;
+    padding: 40px 60px 40px 40px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 10px rgb(231, 231, 231);
+    transition: 0.1s;
+}
+.tech-groups-child:hover{
+    scale: 1.04;
+    background-color: rgba(128, 87, 241,1);
+    color: white;
+}

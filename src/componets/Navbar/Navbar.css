@@ -1,0 +1,13 @@
+.navbar{
+    width: 90vw;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+.nav-wrapper span{
+    padding: 10px;
+    margin: 10px;
+}
+

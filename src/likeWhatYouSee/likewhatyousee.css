@@ -1,0 +1,16 @@
+.lwus{
+    display: flex;
+    align-items: center;
+    text-align: right;
+    justify-content: space-between;
+    width: 95vw;
+}
+.lwus-right-side h2{
+    font-size: 32px;
+}
+.lwus-right-side p{
+    font-size: 28px;
+}
+.lwus-left-side img{
+    width: 50vw;
+}

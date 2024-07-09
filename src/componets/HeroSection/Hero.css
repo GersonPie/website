@@ -1,0 +1,134 @@
+.img{
+    max-width: 256px;
+    border-radius: 50%;
+    box-shadow: 1px 1px 10px black;
+    
+}
+.img-wrapper{
+    border: 15px solid rgb(128, 87, 241);
+    max-width: 256px;
+    height: 262px;
+    border-radius: 50%;
+    
+    
+}
+
+.hero{
+    margin: auto;
+    margin-top: 10vh;
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    padding: 20px;
+    animation: grow 10s infinite ease;
+    width: 90vw;
+    
+}
+.left-wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+.capitalg-text{
+    color:rgb(128, 87, 241);
+    text-align: center;
+    width: 256px;
+    padding: 10px;
+    font-size: 38px;
+}
+.description-text{
+    color: gray;
+    text-align: center;
+    width: 360px;
+    font-size: 26px;
+}
+.right-wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    
+}
+.button1{
+    background-color: rgb(128, 87, 241);
+    color: white;
+    border: 0px;
+    border-radius: 30px;
+    font-size: 20pt;
+    padding: 20px;
+}
+
+.button2{
+    background-color: rgb(39, 39, 39);
+    padding: 20px;
+    color: white;
+    border: 0px;
+    border-radius: 30px;
+    font-size: 20pt;
+    
+}
+
+.desc-text{
+    font-weight: 400;
+    font-size: 3em;
+    max-width: 600px;
+    
+    
+}
+.buttons{
+    display: flex;
+    justify-content: space-evenly;
+    
+    
+    
+}
+
+.hero-social-media{
+    
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    margin: 5px;
+    align-items: center;
+    text-align: center;
+    border-bottom: 10px solid ;
+    
+}
+.hero-social-media div{
+    margin: 10px;
+    font-weight: 600;
+}
+i{
+    font-size: 32px;
+    padding: 0 10px;
+}
+.center-social-media-icon{
+    font-size: 48px;
+    
+}
+.spaceship{
+    position: absolute;
+    top: 50vh;
+    left: 40vw;
+    opacity: .8;
+    animation: bounce 5s infinite
+}
+.spaceship1{
+    position: absolute;
+    top: 60vh;
+    width: 32px;
+    left: 80vw;
+    opacity: .8;
+    animation: bounce 13s infinite
+}
+
+.spaceship2{
+    position: absolute;
+    top: 10vh;
+    width: 64px;
+    left: 60vw;
+    opacity: .8;
+    animation: bounce 10s infinite
+    
+}

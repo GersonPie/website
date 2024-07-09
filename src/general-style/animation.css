@@ -1,0 +1,13 @@
+@keyframes bounce {
+    0%{margin: auto;}
+    30%{margin: auto;padding-top: 50px;}
+    60%{margin: auto;padding-top: -50px;}
+    100%{margin: auto;}
+}
+
+@keyframes grow {
+    0%{scale: 1;}
+    50%{scale: 1.01;}
+    80%{scale: 1.02;}
+}
+

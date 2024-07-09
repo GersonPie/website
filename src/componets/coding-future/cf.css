@@ -1,0 +1,30 @@
+.cf{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    animation: slide 5s infinite;
+}
+.cf .div1{
+    background-color: var(--main-color);
+    padding: 40px;
+
+    border-radius: 50%;
+}
+.cf .div2{
+    background-color: var(--main-color);
+    height: 50px;
+    width: 50%;
+    border-radius: 200px 0 0 200px ;
+}
+.cf h1{
+    width: 200px;
+    text-align: center;
+}
+
+@keyframes slide {
+    0%{margin-left: -100%;}
+    20%{margin-left: 50px;}
+    85%{margin-left: 50px;}
+    90%{margin-left: -20%;}
+    100%{margin-left:100%;}
+}
