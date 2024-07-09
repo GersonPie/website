@@ -127,6 +127,9 @@ h1{
   #left-container{
     display: none;
   }
+  #main-container{
+    text-align: center;
+  }
 }
 @keyframes floating {
   0%{top: 20px}
