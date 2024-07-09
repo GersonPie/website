@@ -75,7 +75,7 @@ h1{
 #main-container{
   position: absolute;
   top: 20vh;
-  left: 30vw;
+  margin: auto;
   max-width: 600px;
   
 }
