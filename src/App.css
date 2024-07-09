@@ -123,7 +123,11 @@ h1{
   animation: floating-content ease-out 1s;
   
 }
-
+@media (max-width: 919px) {
+  body{
+    background-color: #7777FA;
+  }
+}
 @keyframes floating {
   0%{top: 20px}
   50%{top: 30px}
