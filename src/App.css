@@ -124,8 +124,8 @@ h1{
   
 }
 @media (max-width: 919px) {
-  body{
-    background-color: #7777FA;
+  #left-container{
+    display: none;
   }
 }
 @keyframes floating {
