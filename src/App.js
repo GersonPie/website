@@ -12,16 +12,9 @@ function App() {
 //componets
 
 
-
- 
-
-
-
-
-
   return (
     <div className="App">
-      <NavBar/>
+      {/* <NavBar/> */}
       <SideContainer  />
       
         <MainContainer/>
