@@ -23,7 +23,7 @@ const Hero =()=>{
       }, 2000);
     }
     else{
-      setTimeout(()=>setCountText(countText+1), 10)
+      setTimeout(()=>setCountText(countText+1), 20)
       
     }
   }, [countText])
