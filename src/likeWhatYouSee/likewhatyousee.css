@@ -4,12 +4,13 @@
     text-align: right;
     justify-content: space-between;
     width: 95vw;
+    margin-top: 80px;
 }
 .lwus-right-side h2{
-    font-size: 32px;
+    font-size: 24px;
 }
 .lwus-right-side p{
-    font-size: 28px;
+    font-size: 18px;
 }
 .lwus-left-side img{
     width: 50vw;

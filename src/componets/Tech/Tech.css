@@ -4,9 +4,6 @@
 
 }
 
-
-
-
 .tech-groups
 {
     display: flex;
@@ -20,11 +17,24 @@
     list-style: none;
     padding: 40px 60px 40px 40px;
     border-radius: 10px;
-    box-shadow: 1px 1px 10px rgb(231, 231, 231);
-    transition: 0.1s;
+    box-shadow: 5px 5px 10px rgb(206, 206, 206);
+    transition: 0.1s ease;
 }
 .tech-groups-child:hover{
     scale: 1.04;
     background-color: rgba(128, 87, 241,1);
     color: white;
+}
+@media (max-width: 750px){
+    .tech-groups{
+        flex-direction: column;
+        text-align: center;
+        width: 80vw;
+        justify-items: center;
+        margin: auto;
+    }
+    .tech-groups-child{
+        padding: 0px;
+
+    }
 }

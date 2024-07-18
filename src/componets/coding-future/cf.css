@@ -3,6 +3,8 @@
     align-items: center;
     justify-content: space-between;
     animation: slide 5s infinite;
+    margin-top: 100px;
+    width: 90vw;
 }
 .cf .div1{
     background-color: var(--main-color);
@@ -13,8 +15,8 @@
 .cf .div2{
     background-color: var(--main-color);
     height: 50px;
-    width: 50%;
-    border-radius: 200px 0 0 200px ;
+    width: 90%;
+    border-radius: 200px 200px;
 }
 .cf h1{
     width: 200px;
@@ -22,9 +24,9 @@
 }
 
 @keyframes slide {
-    0%{margin-left: -100%;}
-    20%{margin-left: 50px;}
-    85%{margin-left: 50px;}
-    90%{margin-left: -20%;}
-    100%{margin-left:100%;}
+    0%{transform: translateX(-100%);}
+    20%{transform: translateX(50px)}
+    85%{transform: translateX(50px)}
+    90%{transform: translateX(-20%)}
+    100%{transform: translateX(100%)}
 }

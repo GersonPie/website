@@ -1,13 +1,13 @@
 .img{
-    max-width: 256px;
+    width: min(256px, 30vw);
     border-radius: 50%;
     box-shadow: 1px 1px 10px black;
     
 }
 .img-wrapper{
-    border: 15px solid rgb(128, 87, 241);
-    max-width: 256px;
-    height: 262px;
+    border: min(2vw, 15px) solid rgb(128, 87, 241);
+    width: min(256px, 30vw);
+    height: calc(min(256px, 30vw) + 4px);
     border-radius: 50%;
     
     
@@ -15,13 +15,14 @@
 
 .hero{
     margin: auto;
-    margin-top: 10vh;
     display: flex;
+    flex: 1 1 30vw;
     text-align: center;
     justify-content: space-between;
     padding: 20px;
     animation: grow 10s infinite ease;
     width: 90vw;
+    height:calc(100vh - 180px);
     
 }
 .left-wrapper{
@@ -39,7 +40,7 @@
     font-size: 38px;
 }
 .description-text{
-    color: gray;
+    color: rgb(26, 25, 25);
     text-align: center;
     width: 360px;
     font-size: 26px;
@@ -48,6 +49,9 @@
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
+    justify-items: center;
+    
+    width: 50vw;
     
 }
 .button1{
@@ -92,12 +96,12 @@
     margin: 5px;
     align-items: center;
     text-align: center;
-    border-bottom: 10px solid ;
+    
     
 }
 .hero-social-media div{
     margin: 10px;
-    font-weight: 600;
+    font-weight: 400;
 }
 i{
     font-size: 32px;
@@ -131,4 +135,34 @@ i{
     opacity: .8;
     animation: bounce 10s infinite
     
+}
+
+
+@media (max-width:820px) {
+    .hero{
+        flex-direction: column;
+        justify-items: center;
+        
+    }
+    .right-wrapper{
+        height: 220px;
+        width: 80vw;
+        margin: auto;
+    }
+    .description-text{
+        font-size: 18px;
+        width: 80vw;
+        
+    }
+    .desc-text{
+        font-size: 24px;
+    }
+    .hero{
+        min-height: 80vh;
+        justify-items: center;
+        justify-content: center;
+    }
+    .button1,.button2{
+        font-size: 24px;
+    }
 }
